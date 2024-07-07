@@ -1,15 +1,8 @@
 *{
     font-family: "Inter", sans-serif;
+    /* padding: 0px , 32px ,0px ,32px; */
+
 }
-
-.container {
-        width: 100%;
-        margin: 0 auto;
-        padding: 20px;
-    }
-
-
-
 .navbar {
     background-color: white;  
     color: black; 
@@ -69,54 +62,138 @@
     background-color: white;
     border-radius: 6px;
     color: #437EF7;
-     
     
     }
-    
-
-
-
-
-
-
-
-
 .titel {
     font-size: 14px;
+    text-align: center;    
+    margin: 100px 400px 94px;
     text-align: center;
-    margin-top: 50px;    
-    border-bottom: 1px solid #ccc;
 }
-p {
+.ft {
     color: #437EF7;
     font-size: 14px;
 }
 
-
-
-.blue{
-    padding: 64px;
+.parent1{
+    padding: 0px, 32px, 0px, 32px;
     background-color: #2B63D9;
-    
+    margin: 32px;
+    width: Fill (656px);
+    height:284px;
+
+
 }
-.p{
-    
+.chiled1{
+    padding: 32px;
+    float: left;
+    width: 50%
+}
+.p1{
+    height:84px ;
+    width:656px ;
+    align-items : center;
     color: white;
     font-size: 32px;
+
 }
 .p2{
     align-items : center;
-    color: white;
+    color: #B1CCFB;
     font-size: 16px;
 }
-.search{
-    display: flex;
-    background-color: #2B63D9;
+
+.chiled2{
+    width: Fixed (440px);
+    height: 46px;
+    border-radius: 6px;
+
+}
+.sb{
+margin-top: 100px;
+width:352px;
+height:22px;
 }
 .s{
-    border-color: #437EF7;
-    color: white;
-    border-radius: 0px;
+    height:22px;
+    width: 52px;
     background-color: #437EF7;
+    color: white;
+    border-radius: 0%;
+
+}
+.pdiv{
+    color: #B1CCFB;
+    font-size: 14px;
+
+}
+
+
+.parent2 {
+    display: flex;
+    justify-content: space-between;  
+    align-items: flex-start; 
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.image1 {
+    max-width: 1,280px; 
+    margin-right: 24px;
+}
+.image1{
+    width: 588px;
+    height: 210px;
+}
+
+.parent2 .content {
+    flex: 1;
+    margin-right: 24px;  
+}
+
+
+.parent2 .pictext {
+    flex: 40;
+}
+
+.parent2 ul {
+    list-style-type: none;
+    padding: 20;
+}
+
+.parent2 li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.parent2 .image11,
+.parent2 .image22,
+.parent2 .image33 {
+    width: 188px; 
+    height: 118px;
+    margin-right: 20px;
+
+}
+
+.parent2 .pictext div {
+    flex: 1;
+}
+
+.parent2 .chiled4,
+.parent2 .chiled5,
+.parent2 .chiled6 {
+    margin-bottom: 15px;
+}
+
+.parent2 span {
+    font-weight: bold;
+}
+
+.parent2 p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
 }
 

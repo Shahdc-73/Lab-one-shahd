@@ -1,36 +1,35 @@
-*{
-    font-family: "Inter", sans-serif;
-    /* padding: 0px , 32px ,0px ,32px; */
-
+* {
+    font-family: "Inter";
+    box-sizing: border-box;
 }
+/*---------------------------------------Navigation bar-----------------------------------*/
 .navbar {
-    background-color: white;  
-    color: black; 
+    background-color: white;
+    color: black;
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     border-bottom: 1px solid #ccc;
 }
 
 .logo {
-    width: 160px; 
-    height: 40px;  
-    margin-right: 64px;  
+    width: 160px;
+    height: 40px;
+    margin-right: 64px;
 }
 
 .navbar ul {
     list-style-type: none;
     display: flex;
-    margin-right: 46px;  
+    margin-right: 46px;
 }
 
 .navbar ul li {
-    margin-right: 32px;  
+    margin-right: 32px;
 }
 
 .navbar ul li a {
-    color: black;  
+    color: black;
     text-decoration: none;
     font-size: 16px;
 }
@@ -40,160 +39,412 @@
 }
 
 .buttons {
-    width:161px ;
+    width: 161px;
     height: 64px;
     display: flex;
+    gap: 10px;
     outline: none;
     box-shadow: none;
-
-
 }
-.navbutton2{
+
+.navbutton2 {
     width: 80px;
     height: 46px;
     border-radius: 6px;
-    background-color:  #437EF7;
-    color: white
-    ;
-    }
-.navbutton1{
+    background-color: #437EF7;
+    color: white;
+}
+
+.navbutton1 {
     width: 80px;
     height: 46px;
     background-color: white;
     border-radius: 6px;
     color: #437EF7;
-    
-    }
-.titel {
-    font-size: 14px;
-    text-align: center;    
-    margin: 100px 400px 94px;
-    text-align: center;
 }
+/*---------------------------------------titile  -----------------------------------*/
+.titel {
+    font-size: 333px;
+    text-align: center;
+    margin: 100px 400px 94px;
+    background-color: #A5ACBA;
+}
+
 .ft {
     color: #437EF7;
     font-size: 14px;
+    text-align: center;
+    margin-top:80px ;
+    margin-bottom: 16px;
 }
+h1{
+    text-align: center;
+    margin-bottom: 82px;
+}
+/*---------------------------------------Section 1 -----------------------------------*/
 
-.parent1{
-    padding: 0px, 32px, 0px, 32px;
+.parent1 {
+    padding: 0px 32px;
     background-color: #2B63D9;
     margin: 32px;
-    width: Fill (656px);
-    height:284px;
-
-
+    width: fill(656px);
+    height: 284px;
 }
-.chiled1{
+
+.child1 {
     padding: 32px;
     float: left;
-    width: 50%
+    width: 50%;
 }
-.p1{
-    height:84px ;
-    width:656px ;
-    align-items : center;
+
+.p1 {
+    height: 84px;
+    width: 656px;
+    align-items: center;
     color: white;
     font-size: 32px;
-
+    margin-bottom: 24px;
 }
-.p2{
-    align-items : center;
+
+.p2 {
+    align-items: center;
     color: #B1CCFB;
     font-size: 16px;
+    margin-bottom: 64px;
 }
 
-.chiled2{
-    width: Fixed (440px);
+.child2 {
+    width: fixed(440px);
     height: 46px;
     border-radius: 6px;
+    float: right;
+    padding-right: 17px;
+}
 
+.sb {
+    margin-top: 100px;
+    width: 352px;
+    height: 35px;
+    border-radius: 
+    6px, 0px, 0px, 6px;
 }
-.sb{
-margin-top: 100px;
-width:352px;
-height:22px;
-}
-.s{
-    height:22px;
+
+.s {
+    height: 35px;
     width: 52px;
     background-color: #437EF7;
     color: white;
     border-radius: 0%;
-
+    margin-left: -5px;
+    border-radius: 
+    6px, 0px, 0px, 6px;
 }
-.pdiv{
+
+.pdiv {
     color: #B1CCFB;
     font-size: 14px;
+}
+/*---------------------------------------Section 2 -----------------------------------*/
+
+.parent2 {
+    margin: 32px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 40px;
+}
+
+.parent2 .content .text-content .rr {
+    padding-bottom: 37px;
+    font-size: 22px;
 
 }
 
+.parent2 .content .text-content .ss .f {
+    background: #4F5B63;
+    font-size: 16px;
+}
 
-.parent2 {
-    display: flex;
-    justify-content: space-between;  
-    align-items: flex-start; 
-    padding: 20px;
-    border: 1px solid #ccc;
-    margin-bottom: 20px;
+.parent2 .content .text-content .rr {
+    color: #272D37;
+    font-size: 22px;
 }
 
 .image1 {
-    max-width: 1,280px; 
-    margin-right: 24px;
-}
-.image1{
     width: 588px;
     height: 210px;
+    margin-left: 20px;
 }
 
-.parent2 .content {
-    flex: 1;
-    margin-right: 24px;  
+.content {
+    padding: 16px;
+
+}
+
+.content .text-content .rr{
+    margin-bottom: 16px;
+    padding-left: 32px;
+    font-size: 20px;
+    color: #272D37;
+   
+}
+
+.content .text-content .ss{
+     
+    padding-left: 32px;
+    font-size: 16px;
+    color: #5F6D7E;
+
+}
+
+.content .text-content .f{
+    margin-bottom: 33px;
+    padding-left: 32px;
+    font-size: 14px;
+    color: #5F6D7E;
+   
+}
+
+.pictext .item {
+    display: flex;
+    margin-right: 32px;
+    margin-bottom: 32px;
+    
+}
+.pictext .item .image0{
+    
+        width: 188px;
+        height: 118px;
+        border-radius: 10px;
+    
+}
+
+.pictext .item .text .p11 {
+    margin-left: 20px;
+    color: #272D37;
+    font-size:22px ;
+    
+}
+.pictext .item .text .p22 {
+    margin-left: 20px;
+    color:#5F6D7E;
+    font-size:16px ;
+}
+.pictext .item .text .p33 {
+    margin-left: 20px;
+    color:#5F6D7E;
+    font-size:14px ;
 }
 
 
-.parent2 .pictext {
-    flex: 40;
+
+/*---------------------------------------Section 3 -----------------------------------*/
+
+
+h3 {
+    text-align: center;
+    padding-top: 84px;
+    padding-bottom: 64px;
+    font-size: 32px;
+}
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    margin: 32px;
+
+
+}
+.image-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;  
+    text-align: left; 
+    
 }
 
-.parent2 ul {
-    list-style-type: none;
-    padding: 20;
+.image5 {
+    width: 350px;
+    height: 285px;
+    border-radius: 10px;    
+}
+.ee{
+    font-size: 22px;
+    margin-top: 10px;
 }
 
-.parent2 li {
+.image-text {
+    font-size: 14px;  
+    margin-top: 10px;
+    
+}
+.learn-more {
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
-}
-
-.parent2 .image11,
-.parent2 .image22,
-.parent2 .image33 {
-    width: 188px; 
-    height: 118px;
-    margin-right: 20px;
-
-}
-
-.parent2 .pictext div {
-    flex: 1;
-}
-
-.parent2 .chiled4,
-.parent2 .chiled5,
-.parent2 .chiled6 {
-    margin-bottom: 15px;
-}
-
-.parent2 span {
+    color: #437EF7;
     font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
 }
 
-.parent2 p {
-    margin: 0;
+.learn-more i.material-icons {
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+
+.date-text {
     font-size: 14px;
-    color: #666;
+    color: #5F6D7E;
+    margin-top: 10px;
 }
 
+
+
+
+
+
+
+
+/**/
+.blue {
+    margin-right: 32px;
+
+    padding: 0px;
+    margin-left: 32px;
+    background-color: #2B63D9;
+    width: fill(656px);
+    height: 284px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 318px;
+}
+
+.u {
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    margin-top: 64px;
+}
+
+.h1 {
+    color: white;
+    padding: 7px;
+    font-size: 24px;
+    margin-bottom:8px;
+}
+
+.button {
+    width: 91px;
+    height: 50px;
+    border-radius: 6px;
+    background-color: #437EF7;
+    color: white;
+    margin-top: 10px;
+    box-shadow: none;
+    margin-bottom:76px;
+
+}
+
+
+
+/* Footer Styling */
+.footer {
+    background-color: #151B28;
+
+    height: 700px;
+    color: white;
+    margin: 0 ;
+    padding: 0;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.logo2 {
+    margin-top: 70px;
+    margin-left: 32px;
+    padding-left: 70px;
+}
+
+.ftext {
+    font-size: 16px;
+    color: #A5ACBA;
+    margin-left: 32px;
+    padding-left: 70px;
+}
+
+.footer .email{
+    margin-bottom: -100px;
+}
+.last {
+    margin: 0;
+    padding: 0;
+background-color: #151B28;    
+    text-align: center;
+    font-size: 16px;
+    color: #A5ACBA;
+    margin-right: 32px;
+    margin-left: 32px;
+}
+
+/* List Styles */
+.footer-content {
+    display: flex; 
+    width: 100%; 
+    padding-right:  32px;  
+    width: 623px;
+    float: right;
+     
+    
+}
+
+.footer-content ul {
+    margin-top: 80px;
+    list-style-type: none; /* Remove list styles */
+    padding: 0; /* Remove default padding */
+    margin: 0 180px 0 0; /* 180px space to the right of each list */
+    text-align: left; /* Align text to the left */
+    font-size: 16px;
+    
+}
+
+.footer-content ul:last-child {
+    margin-right: 0; /* Remove margin-right for the last list to avoid extra space */
+}
+
+.footer-content ul li {
+    padding: 8px 0; /* Adjust spacing between list items */
+    font-size: 14px; /* Adjust font size */
+    color: #A5ACBA; /* Set text color */
+}
+
+.email {
+    margin: 0;
+    float: left;
+    margin-left: 100px;
+    padding: 0;
+}
+
+.sbb {
+    margin-bottom: 100px;
+    width: 222px;
+    height: 35px;
+    border-radius: 6px 0 0 6px;
+}
+
+.s {
+    height: 35px;
+    width: 52px;
+    background-color: #437EF7;
+    color: white;
+    margin-left: -5px;
+    border-radius: 0 6px 6px 0;
+}
+
+/* Ensure no space between footer and the section before it */
+.blue .footer {
+    margin-bottom: -10px;
+}
